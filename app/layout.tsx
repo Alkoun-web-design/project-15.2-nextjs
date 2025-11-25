@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import DarkModeToggle from "@/components/DarkModeToggle";
+// import DarkModeToggle from "@/components/DarkModeToggle";
 import "./globals.css";
 import { Poppins } from "next/font/google";  
 
@@ -31,7 +31,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
-        <DarkModeToggle />
+        {/* <DarkModeToggle /> */}
       </body>
     </html>
   );
