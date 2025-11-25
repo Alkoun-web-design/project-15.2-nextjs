@@ -97,7 +97,7 @@ export default function Navbar () {
 
             <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
               <Link
-                href="#"
+                href="#footer"
                 className="rounded-md bg-dark px-7 py-3 text-base font-medium text-white hover:bg-body-color dark:bg-dark-2 dark:hover:bg-dark-3"
               >
                 Contact Me
